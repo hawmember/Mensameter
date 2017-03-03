@@ -15,6 +15,9 @@
 		$user = strtolower($_POST["user"]);
 		$passwort = md5($_POST["passwort"]);
 
+
+		/* MSQL CONNECTION $$$$$$$$$$$$$$$$$$$$$$
+		$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 		$verbindung = mysql_connect("localhost", "Brandao", "haw")
 		or die ("Fehler im System");
 
