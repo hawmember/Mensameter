@@ -80,6 +80,8 @@
 	echo "Durchschnitt: ". $ergebnisProductFour;
 	}
 
+
+mysql_close($verbindung);
 	?>
 	<br /> <br /><br />
 
