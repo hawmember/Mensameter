@@ -5,10 +5,6 @@
 	mysql_select_db("htmlworld")
 					or die ("Verbindung zur Datenbank war nicht möglich...");
 
-
-	// $sum = "SELECT SUM(productOne) FROM login";
-	// $ergebnis = mysql_query($sum);
-
 ?>
 
 
